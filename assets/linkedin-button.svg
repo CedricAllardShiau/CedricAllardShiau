@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 76" role="img" aria-labelledby="title description">
+  <title id="title">Connect with Cedric on LinkedIn</title>
+  <desc id="description">A space-themed button with a LinkedIn icon and the label LinkedIn.</desc>
+  <defs>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101b32"/>
+      <stop offset="1" stop-color="#080d1c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#67d9ff" stop-opacity=".38"/>
+      <stop offset=".5" stop-color="#91e4ff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#c8a8ff" stop-opacity=".48"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="318" height="74" rx="16" fill="url(#button)" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M17 13h13m-13 0v13m286-13h-13m13 0v13M17 63h13m-13 0V50m286 13h-13m13 0V50" fill="none" stroke="#83dfff" stroke-opacity=".7" stroke-width="1.5"/>
+  <circle cx="46" cy="38" r="1.5" fill="#c5eaff"/>
+  <circle cx="273" cy="24" r="1" fill="#c5eaff"/>
+  <rect x="82" y="24" width="34" height="28" rx="5" fill="none" stroke="#8fe2ff" stroke-width="2"/>
+  <text x="89" y="45" fill="#8fe2ff" font-family="'Avenir Next', 'Segoe UI', sans-serif" font-size="20" font-weight="700">in</text>
+  <text x="132" y="46" fill="#eaf5ff" font-family="'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif" font-size="18" font-weight="600" letter-spacing="2">LINKEDIN</text>
+</svg>
