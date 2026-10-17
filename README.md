@@ -4,9 +4,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:cedricallardshiau@gmail.com"><img src="./assets/email-button.svg" alt="Email Cedric" width="140"></a>
+  <a href="mailto:cedricallardshiau@gmail.com"><img src="./assets/email-button.svg" alt="Email Cedric" width="180"></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/cedricas/"><img src="./assets/linkedin-button.svg" alt="Connect with Cedric on LinkedIn" width="140"></a>
+  <a href="https://www.linkedin.com/in/cedricas/"><img src="./assets/linkedin-button.svg" alt="Connect with Cedric on LinkedIn" width="180"></a>
 </p>
 
 <h1 align="center">Hi, I'm Cedric 👋</h1>
