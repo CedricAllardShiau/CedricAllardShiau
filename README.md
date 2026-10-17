@@ -9,8 +9,8 @@
   <a href="https://www.linkedin.com/in/cedricas/"><img src="./assets/linkedin-button.svg" alt="Connect with Cedric on LinkedIn" width="180"></a>
 </p>
 
-<h1 align="center">Hi, I'm Cedric 👋</h1>
+<h1 align="center">Hey! Welcome to my GitHub. My name is Cedric Allard-Shiau, I'm a third year Physics Student at UVic with a minor in Japanese Studies👋</h1>
 
 <p align="center">
-  Physics major building my first project: a particle track simulator.
+  Here you can find all of my projects that I'm working on!
 </p>
