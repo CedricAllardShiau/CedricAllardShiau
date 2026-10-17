@@ -9,8 +9,12 @@
   <a href="https://www.linkedin.com/in/cedricas/"><img src="./assets/linkedin-button.svg" alt="Connect with Cedric on LinkedIn" width="180"></a>
 </p>
 
-<h1 align="center">Hey! Welcome to my GitHub. My name is Cedric Allard-Shiau, I'm a third year Physics Student at UVic with a minor in Japanese Studies👋</h1>
+<h1 align="center">Hey! Welcome to my GitHub👋</h1>
 
 <p align="center">
-  Here you can find all of my projects that I'm working on!
+  My name is Cedric Allard-Shiau. I'm a third-year physics student at UVic with a minor in Japanese Studies.
 </p>
+
+- **Studying:** Physics and Japanese Studies at the University of Victoria
+- **Exploring:** Quantum and particle physics
+- **Fun fact:** I absolutely love to bake! Macarons are my favourite treat to make.
