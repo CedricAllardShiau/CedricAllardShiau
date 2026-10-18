@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 112" role="img" aria-labelledby="title description">
+  <title id="title">Welcome to my GitHub. Let's get to work.</title>
+  <desc id="description">A typewriter animation that alternates between Welcome to my GitHub and Let's get to work, styled with glowing cyan and violet accents.</desc>
+  <defs>
+    <clipPath id="welcome-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="502" y="20" width="580" height="64" class="welcome-reveal"/>
+    </clipPath>
+    <clipPath id="work-clip" clipPathUnits="userSpaceOnUse">
+      <rect x="502" y="20" width="580" height="64" class="work-reveal"/>
+    </clipPath>
+    <style>
+      .welcome-reveal { animation: welcome-reveal 12s infinite; }
+      .work-reveal { animation: work-reveal 12s infinite; }
+      .cursor-blink { animation: cursor-blink .8s steps(2, end) infinite; }
+      @keyframes cursor-blink {
+        0%, 49% { fill-opacity: 1; }
+        50%, 100% { fill-opacity: .15; }
+      }
+      @keyframes welcome-reveal {
+        0% { width: 0; animation-timing-function: steps(80, end); }
+        16% { width: 580px; animation-timing-function: linear; }
+        38% { width: 580px; animation-timing-function: steps(80, end); }
+        50%, 100% { width: 0; }
+      }
+      @keyframes work-reveal {
+        0% { width: 0; }
+        54% { width: 0; animation-timing-function: steps(80, end); }
+        72% { width: 580px; animation-timing-function: linear; }
+        80% { width: 580px; animation-timing-function: steps(80, end); }
+        92%, 100% { width: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .welcome-reveal { animation: none; width: 580px; }
+        .work-reveal { animation: none; width: 0; }
+        .cursor-blink { animation: none; fill-opacity: 1; }
+      }
+    </style>
+  </defs>
+  <text x="792" y="67" text-anchor="middle" fill="#eaf5ff" font-family="'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif" font-size="42" font-weight="600" letter-spacing="2" clip-path="url(#welcome-clip)">Welcome to my GitHub<tspan class="cursor-blink">_</tspan></text>
+  <text x="792" y="67" text-anchor="middle" fill="#eaf5ff" font-family="'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif" font-size="42" font-weight="600" letter-spacing="2" clip-path="url(#work-clip)">Let's get to work.</text>
+  <path d="M682 84h68m84 0h68" stroke="#81ddff" stroke-opacity=".65" stroke-width="1"/>
+  <circle cx="792" cy="84" r="2.5" fill="#9de6ff"/>
+</svg>
